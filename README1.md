@@ -37,9 +37,6 @@ Hint: use `.strtime()` method to reformat the time
 
 ### Task 2
 
-Using the variable called `current_datetime`, add 7 days to your current day.
-
-- Your result should look like this, if today is 8/07/2021:
 
 ```
 2021-07-15
