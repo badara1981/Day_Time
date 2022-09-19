@@ -12,14 +12,19 @@
 #datetime
 
 #
-
 from datetime import date, time, datetime
 today = date.today()
 today
-datetime.date(2020, 1, 24)
+#datetime.date(1, 24, 2022)
 now = datetime.now()
 now
-datetime.date_time(2020, 1, 24, 14, 4, 57, 10015)
+#datetime.date_time(2020, 1, 24, 14, 4, 57, 100, 15)
 current_time = time(now.hour, now.minute, now.second)
 datetime.combine(today, current_time)
-datetime.datetime(2020, 1, 24, 14, 4, 57)
+#datetime.datetime(2020, 1, 24, 14, 4, 57)
+
+#
+
+from datetime import date
+date.fromisoformat("2020-01-31")
+datetime.date(2020, 1, 31)
