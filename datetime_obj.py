@@ -9,3 +9,6 @@ print(datetime_object)
 #%b is for Month as locale’s abbreviated name. Like Jan, Feb, …, Dec
 
 #%B is for Month as locale’s full name. Like January, February, …, December
+
+##
+
