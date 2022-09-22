@@ -7,7 +7,26 @@ current = datetime.now()
 req_format = datetime.strftime(current, "%Y/%m/%d %H/%M/%S")
 print(req_format)
 
-##
+##  STRFTIME 
+#How strftime() works?
+#In the above program, %Y, %m, %d etc. are format codes. The strftime() method takes one or more format codes as an argument and returns a formatted string based on it.
+
+
+#We imported datetime class from the datetime module. It's because the object of datetime class can access strftime() method.
+
+#The datetime object containing current date and time is stored in now variable.
+
+#The strftime() method can be used to create formatted strings.
+
+#The string you pass to the strftime() method may contain more than one format codes.
+#We imported datetime class from the datetime module. It's because the object of datetime class can access strftime() method.
+
+#The datetime object containing current date and time is stored in now variable.
+
+#The strftime() method can be used to create formatted strings.
+
+#The string you pass to the strftime() method may contain more than one format codes....
+ #
 
 from datetime import datetime
 
