@@ -1,6 +1,8 @@
 
 ##String to datetime
 
+# datetime object containing current date and time
+
 from datetime import datetime
 
 datetime_str = '09/22/22 13:55:26'

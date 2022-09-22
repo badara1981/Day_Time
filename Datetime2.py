@@ -96,8 +96,8 @@ print("d3 =", d3)
 d4 = today.strftime("%b-%d-%Y")
 print("d4 =", d4)
 
-
-#
+#EXER 2
+#  Current time using datetime object
 from datetime import datetime
 
 # datetime object containing current date and time
